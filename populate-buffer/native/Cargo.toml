@@ -1,0 +1,12 @@
+[package]
+name = "populate-buffer"
+version = "0.0.1"
+authors = ["Dave Herman <dherman@mozilla.com>"]
+license = "MIT"
+
+[lib]
+name = "populate_buffer"
+crate-type = ["dylib"]
+
+[dependencies]
+neon = "0.1"
