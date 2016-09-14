@@ -1,0 +1,12 @@
+[package]
+name = "nested-scopes"
+version = "0.0.1"
+authors = ["Dave Herman <dherman@mozilla.com>"]
+license = "MIT"
+
+[lib]
+name = "nested_scopes"
+crate-type = ["dylib"]
+
+[dependencies]
+neon = "0.1"
